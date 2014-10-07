@@ -1,0 +1,2 @@
+Tesouro: 90
+Caminho: 2, 3, 4, F.
