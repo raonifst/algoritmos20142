@@ -1,2 +1,2 @@
-Tesouro: 0
+Tesouro: 0.
 Caminho: F.

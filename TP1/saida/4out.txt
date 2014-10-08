@@ -1,2 +1,2 @@
-Tesouro: 57
+Tesouro: 57.
 Caminho: 2, 3, F.
