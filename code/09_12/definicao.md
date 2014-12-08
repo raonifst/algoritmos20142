@@ -1,8 +1,12 @@
+Recursividade
+=============
 Recursão é nome dado ao processo de resolução de problemas 
 em que um dado PROBLEMA é reduzido em um ou mais SUBPROBLEMAS que:
 
 i) são mais SIMPLES de resolver e
+
 ii) tem a MESMA ESTRUTURA do problema original.
+
 
 Considerando este processo de subdivisão, trataremos, em algum momento, 
 de subproblemas eminentemente simples. Estes subproblemas TRIVIAIS 
@@ -31,6 +35,7 @@ Estes conceitos levam a definição de um método que pode ser aplicado na
 criação de uma solução recursiva. Este método é apresentado a seguir:
 
 SE a instância em questão é trivial
+
 	ENTÃO resolva-a diretamente
 SENÃO
 	reduza a uma instância menor do mesmo problema
