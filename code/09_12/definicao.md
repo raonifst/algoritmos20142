@@ -1,5 +1,6 @@
 Recursividade
 =============
+
 Recursão é nome dado ao processo de resolução de problemas 
 em que um dado PROBLEMA é reduzido em um ou mais SUBPROBLEMAS que:
 
@@ -38,6 +39,7 @@ SE a instância em questão é trivial
 
 	ENTÃO resolva-a diretamente
 SENÃO
+
 	reduza a uma instância menor do mesmo problema
 	aplique o método à instância menor
 	volte à instância original.
@@ -45,6 +47,7 @@ SENÃO
 
 
 Para maiores detalhes, consulte 
+
 i) o livro Thinking recursively do Eric Roberts e 
 ii) o capítulo 2 do livro Foundations of Computer Science do Aho e Ullman 
 [em: http://infolab.stanford.edu/~ullman/focs.html].
