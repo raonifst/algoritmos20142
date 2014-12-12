@@ -1,7 +1,7 @@
 /*
 Questões:
 1) Entenda e comente o código abaixo.
-2) Olhe atentamente o trecho de código das linhas 53-56 e
+2) Olhe atentamente o trecho entre as linhas 55-59 e
     verifique a compatibilidade das dimensões das matrizes.
 */
 #include <stdio.h>
@@ -39,22 +39,24 @@ int lerMatrizInteiros(int A[][100], int m, int n)
     int i, j;
 
     if(m > 100 || n > 100)
-        return 1;
+        return 0;
 
     for(i = 0; i < m; i++)
         for(j = 0; j < n; j++)
             scanf("%d", &A[i][j]);
 
+    return 1;
 }
 
 int main()
 {
     int A[100][100], B[100][100], C[100][100];
 
-    lerMatrizInteiros(A, 3, 2)
+    lerMatrizInteiros(A, 3, 2);
     lerMatrizInteiros(B, 2, 3);
-    multiplicarMatrizesInteiros(A, 3, 2, B, 2, 3, C);
-    mostrarMatrizInteiros(C, 3, 3);
+
+    if(multiplicarMatrizesInteiros(A, 3, 2, B, 2, 3, C))
+        mostrarMatrizInteiros(C, 3, 3);
 
 
     return 0;
