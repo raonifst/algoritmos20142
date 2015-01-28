@@ -1,3 +1,11 @@
+/*
+Questões:
+1) Entenda e comente o código abaixo.
+2) Tente responder as seguintes questões:
+  a) Qual o caso base da função repeticao?
+  b) Como é realizada a divisão dos subproblemas
+     e a combinação de suas soluções?
+*/
 #include <stdio.h>
 
 int repeticao(int v[], int n)
